@@ -34,6 +34,7 @@ public class Masajista extends SeleccionFutbol {
         System.out.println("El masajista participa en el partido.");
     }
     
+    @Override
     public void darMasaje() {
         System.out.println("El masajista da un masaje.");
     }

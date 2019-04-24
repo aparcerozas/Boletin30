@@ -63,6 +63,12 @@ public abstract class SeleccionFutbol implements IntegranteSeleccionFutbol {
         return "id=" + id + ", nombre=" + nombre + ", apellidos=" + apellidos + ", edad=" + edad;
     }
     
+    public void entrevista(){};
     
+    public void planificarEntrenamiento(){};
+    
+    public void darMasaje(){};
+    
+    public void seleccionarJugador(){};
     
 }

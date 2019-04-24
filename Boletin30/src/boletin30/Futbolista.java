@@ -34,6 +34,7 @@ public class Futbolista extends SeleccionFutbol {
         System.out.println("El futbolista juega un partido.");
     }
     
+    @Override
     public void entrevista() {
         System.out.println("El futbolista es entrevistado.");
     }

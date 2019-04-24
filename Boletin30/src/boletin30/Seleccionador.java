@@ -31,6 +31,7 @@ public class Seleccionador extends SeleccionFutbol {
         System.out.println("El seleccionador participa en un partido.");
     }
     
+    @Override
     public void seleccionarJugador() {
         System.out.println("El seleccionador selecciona un jugador.");
     }
